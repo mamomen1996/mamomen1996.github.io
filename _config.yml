@@ -9,8 +9,8 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Personal Website"
-title_separator          : "-"
+title                    : "Mohammad Ali Momen"
+title_separator          : "•"
 name                     : &name "Mohammad Ali Momen"
 description              : &description "This is my personal website"
 url                      : https://mamomen1996.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
@@ -25,7 +25,7 @@ author:
   avatar           : "pic_2.png"
   name             : "Mohammad Ali Momen"
   pronouns         : "he/him"  
-  bio              : "MSc in Artificial Intelligence"
+  bio              : "MSc in Artificial Intelligence at Sharif University of Technology"
   location         : "Iran, Tehran"
   employer         : "Sharif University of Technology"
   uri              : # URL
@@ -72,7 +72,7 @@ author:
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : # Username
+  youtube          : "mamomen1996"
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
@@ -85,8 +85,8 @@ publication_category:
     title: 'Conference Papers'
 
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : false # true, false (default)
+teaser                   : "500x300.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
