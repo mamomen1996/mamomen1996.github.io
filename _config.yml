@@ -1,5 +1,3 @@
-# Welcome to Jekyll!
-#
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
@@ -11,9 +9,9 @@ locale                   : "en-US"
 site_theme               : "default"
 title                    : "Mohammad Ali Momen"
 title_separator          : "•"
-name                     : &name "Mohammad Ali Momen"
-description              : &description "This is my personal website"
-url                      : https://mamomen1996.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+name                     : "Mohammad Ali Momen"
+description              : "This is my personal website"
+url                      : "https://mamomen1996.github.io" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "mamomen1996/mamomen1996.github.io"
 
