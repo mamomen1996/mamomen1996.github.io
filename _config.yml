@@ -20,7 +20,7 @@ repository               : "mamomen1996/mamomen1996.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "pic_2.png"
+  avatar           : "profile.png"
   name             : "Mohammad Ali Momen"
   pronouns         : "he/him"  
   bio              : "MSc in Artificial Intelligence at Sharif University of Technology"
