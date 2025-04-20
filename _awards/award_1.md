@@ -1,6 +1,6 @@
 ---
 title: "Patent certificate"
-excerpt: "This is my first invention at the age of 17<br/><img src='/images/patent_1.jpg' width='500' height='717'>"
+excerpt: "This is my first invention at the age of 17<br/><br/><img src='/images/patent_1_500x717.jpg'>"
 collection: awards
 ---
 <br/><br/><img src='/images/patent_1.jpg'><br/><br/>
