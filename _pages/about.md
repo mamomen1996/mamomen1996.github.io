@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "Home Page"
 author_profile: true
 classes: wide smaller-font
 ---
