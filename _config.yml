@@ -20,10 +20,10 @@ repository               : "mamomen1996/mamomen1996.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Mohammad Ali Momen"
   pronouns         : "he/him"  
-  bio              : "MSc Student in Computer Engineering at Sharif University of Technology"
+  bio              : "M.Sc. Student in Computer Engineering at Sharif University of Technology"
   location         : "Iran, Tehran"
   employer         : "Sharif University of Technology"
   uri              : # URL
@@ -70,7 +70,7 @@ author:
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : "mamomen1996"
+  youtube          : # Username
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
