@@ -214,27 +214,30 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  awards:
+  experiences:
     output: true
     permalink: /:collection/:path/
-  posts:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+  awards:
     output: true
     permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
 defaults:
-  # _posts
+  # _experiences
   - scope:
       path: ""
-      type: posts
+      type: experiences
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
+      read_time: false
+      comments: false
       share: true
-      related: true
+      related: false
   # _pages
   - scope:
       path: ""
@@ -250,7 +253,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: true
+      comments: false
   # _awards
   - scope:
       path: ""
@@ -259,13 +262,13 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
-  # _posts
+      comment: false
+  # _projects
   - scope:
       path: ""
-      type: posts
+      type: projects
     values:
-      layout: talk
+      layout: single
       author_profile: true
       share: true
 
