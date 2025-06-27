@@ -2,9 +2,9 @@
 title: "Paper Title Number 1"
 collection: publications
 category: manuscripts
-permalink: /publication/2025-04-19-paper-title-number-1
+permalink: /publication/2025-06-27-paper-title-number-1
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2025-04-19
+date: 2025-06-27
 venue: 'Journal 1'
 slidesurl: 'http://mamomen1996.github.io/files/slides1.pdf'
 paperurl: 'http://mamomen1996.github.io/files/paper1.pdf'
