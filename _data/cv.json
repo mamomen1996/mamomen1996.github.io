@@ -2,15 +2,15 @@
   "basics": {
     "name": "Mohammad Ali Momen",
     "email": "mamomen1996@gmail.com",
-    "phone": "",
+    "phone": "(+98) 21",
     "website": "https://mamomen1996.github.io",
-    "summary": "MSc in Artificial Intelligence at Sharif University of Technology",
+    "summary": "Researcher & Inventor",
     "location": {
       "address": "",
       "postalCode": "",
       "city": "Tehran",
       "countryCode": "IR",
-      "region": ""
+      "region": "Azadi"
     },
     "profiles": [
       {
@@ -30,20 +30,33 @@
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "institution": "Tamin (ICT & Management Consultancy)",
+      "area": "Mid Full-Stack Web Developer",
+      "startDate": "Dec 2020",
+      "endDate": "May 2024",
+    },
+    {
+      "institution": "Maktab Sharif Bootcamp",
+      "area": "Junior Backend Web Developer",
+      "startDate": "Jul 2020",
+      "endDate": "Dec 2020",
+    }
+  ],
   "education": [
     {
       "institution": "Sharif University of Technology",
-      "area": "MSc in Computer Engineering (Artificial Intelligence and Robotics)",
+      "area": "M.Sc. in Computer Engineering (Artificial Intelligence and Robotics)",
       "studyType": "",
       "startDate": "2025",
-      "endDate": "",
+      "endDate": "Present",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "Azarbaijan Shahid Madani University",
-      "area": "BSc in Physics (Atomic and Molecular)",
+      "institution": "Azerbaijan Shahid Madani University",
+      "area": "B.Sc. in Physics (Atomic and Molecular)",
       "studyType": "",
       "startDate": "2014",
       "endDate": "2018",
