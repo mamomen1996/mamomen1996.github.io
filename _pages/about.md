@@ -5,22 +5,6 @@ author_profile: true
 classes: wide smaller-font
 ---
 
-<!-- Swiper Slider Bar -->
-<div class="swiper mySwiper" style="margin-bottom: 2rem;">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide"><img src="/images/1_500x712.jpg" alt="Media 1"></div>
-    <div class="swiper-slide"><img src="/images/3_500x717.jpg" alt="Media 2"></div>
-    <div class="swiper-slide"><img src="/images/4_547x500.jpg" alt="Media 3"></div>
-    <div class="swiper-slide"><img src="/images/5_689x500.jpg" alt="Media 4"></div>
-    <div class="swiper-slide"><img src="/images/7_500x719.jpg" alt="Media 5"></div>
-  </div>
-  <!-- Add Pagination -->
-  <div class="swiper-pagination"></div>
-  <!-- Add Navigation -->
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
-</div>
-
 {% capture custom_content %}
 ## About Me
 <div style="text-align: justify; font-size: 20px;">
