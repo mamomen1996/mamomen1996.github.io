@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Mohammad Ali Momen",
-    "label":"",
+    "label": "",
     "email": "mamomen1996@gmail.com",
     "phone": "(+98) 21",
     "website": "https://mamomen1996.github.io",
@@ -52,7 +52,7 @@
       "startDate": "2014",
       "endDate": "2018",
       "thesis": null,
-      "gpa": 3.35/4.00,
+      "gpa": "3.35/4.00",
       "courses": []
     }
   ],
@@ -82,75 +82,83 @@
       "highlights": [
         "Learned the Spring Boot framework in 6 months.",
         "Carrying out more than 20 projects based on Java core, Spring MVC, Spring Boot during the bootcamp.",
-        "Assisted in the development and maintenance of Java applications using Spring framework, contributing to the successful completion of 20+ development tasks within assigned deadlines.",
+        "Assisted in the development and maintenance of Java applications using Spring framework, contributing to the successful completion of 20+ development tasks within assigned deadlines."
       ]
     }
   ],
   "interests": [
     {
       "name": "Artificial General Intelligence",
-      "keywords":[]
+      "keywords": []
     },
     {
       "name": "Machine Consciousness",
-      "keywords":[]
+      "keywords": []
     },
     {
       "name": "Computational Neuroscience",
-      "keywords":[]
+      "keywords": []
     },
     {
       "name": "Cognitive Neuroscience",
-      "keywords":[]
+      "keywords": []
     },
     {
       "name": "Reinforcement Learning",
-      "keywords":[]
+      "keywords": []
     },
     {
       "name": "Multi Modal Learning",
-      "keywords":[]
+      "keywords": []
     },
     {
       "name": "Artificial Neural Networks",
-      "keywords":[]
-    },
+      "keywords": []
+    }
   ],
   "research": [],
   "publications": [
-    "articles":[
-      {
-        "name": "Paper Title Number 1",
-        "publisher": "Journal 1",
-        "releaseDate": "2009-10-01",
-        "website": "http://academicpages.github.io/files/paper1.pdf",
-        "summary": "This paper is about the number 1. The number 2 is left for future work."
-      },
-      {
-        "name": "Paper Title Number 2",
-        "publisher": "Journal 1",
-        "releaseDate": "2010-10-01",
-        "website": "http://academicpages.github.io/files/paper2.pdf",
-        "summary": "This paper is about the number 2. The number 3 is left for future work."
-      },
-      {
-        "name": "Paper Title Number 3",
-        "publisher": "Journal 1",
-        "releaseDate": "2015-10-01",
-        "website": "http://academicpages.github.io/files/paper3.pdf",
-        "summary": "This paper is about the number 3. The number 4 is left for future work."
-      },
-      {
-        "name": "Paper Title Number 4",
-        "publisher": "GitHub Journal of Bugs",
-        "releaseDate": "2024-02-17",
-        "website": "http://academicpages.github.io/files/paper3.pdf",
-        "summary": "This paper is about fixing template issue #693."
-      }
-    ],
-    "papers":[],
-    "preprints":[],
-    "grants":[]
+    {
+      "articles": [
+        {
+          "name": "Paper Title Number 1",
+          "publisher": "Journal 1",
+          "releaseDate": "2009-10-01",
+          "website": "http://academicpages.github.io/files/paper1.pdf",
+          "summary": "This paper is about the number 1. The number 2 is left for future work."
+        },
+        {
+          "name": "Paper Title Number 2",
+          "publisher": "Journal 1",
+          "releaseDate": "2010-10-01",
+          "website": "http://academicpages.github.io/files/paper2.pdf",
+          "summary": "This paper is about the number 2. The number 3 is left for future work."
+        },
+        {
+          "name": "Paper Title Number 3",
+          "publisher": "Journal 1",
+          "releaseDate": "2015-10-01",
+          "website": "http://academicpages.github.io/files/paper3.pdf",
+          "summary": "This paper is about the number 3. The number 4 is left for future work."
+        },
+        {
+          "name": "Paper Title Number 4",
+          "publisher": "GitHub Journal of Bugs",
+          "releaseDate": "2024-02-17",
+          "website": "http://academicpages.github.io/files/paper3.pdf",
+          "summary": "This paper is about fixing template issue #693."
+        }
+      ]
+    },
+    {
+      "papers": []
+    },
+    {
+      "preprints": []
+    },
+    {
+      "grants": []
+    }
   ],
   "skills": [
     {
@@ -175,7 +183,7 @@
     },
     {
       "name": "Data Analysis & Visualization",
-      "keywords" [
+      "keywords": [
         "NumPy",
         "Pandas",
         "Matplotlib",
@@ -259,5 +267,5 @@
   "certifications": [],
   "awards": [],
   "languages": [],
-  "references": [],
+  "references": []
 }
