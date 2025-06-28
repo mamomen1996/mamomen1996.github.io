@@ -269,7 +269,7 @@
     <div class="cv-skills">
       {% for skill in cv.skills %}
       <li class="cv-item">
-        <div class="cv-item-content">
+        <div class="cv-item-header">
           <div class="cv-item-title">{{ skill.name }}</div>
           {% if skill.keywords.size > 0 %}
           <div class="cv-item-detail">{{ skill.keywords | join: ", " }}</div>
