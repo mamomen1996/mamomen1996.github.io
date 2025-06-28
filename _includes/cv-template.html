@@ -163,25 +163,6 @@
   </div>
   {% endif %}
   
-  {% if cv.skills.size > 0 %}
-  <!-- Skills -->
-  <div class="cv-section">
-    <h2>Skills</h2>
-    <div class="cv-skills">
-      {% for skill in cv.skills %}
-      <div class="cv-skill-category">
-        <h3>{{ skill.name }}</h3>
-        <ul class="cv-skill-list">
-          {% for keyword in skill.keywords %}
-          <li>{{ keyword }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-  {% endif %}
-  
   <!-- Publications -->
   <div class="cv-section">
     <h2>Publications</h2>
@@ -280,6 +261,25 @@
     </ul>
     {% endif %}
   </div>
+
+  {% if cv.skills.size > 0 %}
+  <!-- Technical Skills -->
+  <div class="cv-section">
+    <h2>Technical Skills</h2>
+    <div class="cv-skills">
+      {% for skill in cv.skills %}
+      <div class="cv-skill-category">
+        <h3>{{ skill.name }}</h3>
+        <ul class="cv-skill-list">
+          {% for keyword in skill.keywords %}
+          <li>{{ keyword }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
   
   {% if cv.presentations.size > 0 %}
   <!-- Presentations/Talks -->
@@ -351,8 +351,57 @@
           {% endif %}
           {% if item.url %}
           <div class="cv-item-detail">
-            <a href="{{ item.url }}" target="_blank">View Project</a>
+            <a href="{{ item.url }}" target="_blank">GitHub Link</a>
           </div>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if cv.certifications.size > 0 %}
+  <!-- Certifications -->
+   <div class="cv-section">
+    <h2>Certifications</h2>
+    <ul class="cv-list">
+      {% for certificate in cv.certifications %}
+      <li class="cv-item">
+        <div class="cv-item-header">
+          <div class="cv-item-title">{{ certificate.title }}</div>
+          <div class="cv-item-date">{{ certificate.date | slice: 0, 4 }}</div>
+        </div>
+        <div class="cv-item-content">
+          <div class="cv-item-subtitle">{{ certificate.institution }}</div>
+          {% if certificate.type %}
+          <div class="cv-item-detail">Role: {{ certificate.type }}</div>
+          {% endif %}
+          {% if certificate.description %}
+          <div class="cv-item-detail">{{ certificate.description }}</div>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if cv.awards.size > 0 %}
+  <!-- Honors & Awards -->
+   <div class="cv-section">
+    <h2>Honors & Awards</h2>
+    <ul class="cv-list">
+      {% for award in cv.awards %}
+      <li class="cv-item">
+        <div class="cv-item-header">
+          <div class="cv-item-title">{{ award.title }}</div>
+          <div class="cv-item-date">{{ award.date | slice: 0, 4 }}</div>
+        </div>
+        <div class="cv-item-content">
+          <div class="cv-item-subtitle">{{ award.institution }}</div>
+          {% if award.description %}
+          <div class="cv-item-detail">{{ award.description }}</div>
           {% endif %}
         </div>
       </li>
