@@ -168,7 +168,7 @@
     <h2>Publications</h2>
 
     {% if cv.publications.articles.size > 0 %}
-    <h4>Journal Articles</h4>
+    <h3>Journal Articles</h3>
     <ul class="cv-list">
       {% for article in cv.publications.articles %}
       <li class="cv-item">
@@ -193,7 +193,7 @@
     {% endif %}
 
     {% if cv.publications.papers.size > 0 %}
-    <h4>Conference Papers</h4>
+    <h3>Conference Papers</h3>
     <ul class="cv-list">
       {% for paper in cv.publications.papers %}
       <li class="cv-item">
@@ -218,7 +218,7 @@
     {% endif %}
 
     {% if cv.publications.preprints.size > 0 %}
-    <h4>Preprints</h4>
+    <h3>Preprints</h3>
     <ul class="cv-list">
       {% for preprint in cv.publications.preprints %}
       <li class="cv-item">
@@ -243,7 +243,7 @@
     {% endif %}
 
     {% if cv.publications.grants.size > 0 %}
-    <h4>Grants</h4>
+    <h3>Grants</h3>
     <ul class="cv-list">
       {% for grant in cv.publications.grants %}
       <li class="cv-item">
@@ -268,14 +268,14 @@
     <h2>Technical Skills</h2>
     <div class="cv-skills">
       {% for skill in cv.skills %}
-      <div class="cv-skill-category">
-        <h3>{{ skill.name }}</h3>
-        <ul class="cv-skill-list">
-          {% for keyword in skill.keywords %}
-          <li>{{ keyword }}</li>
-          {% endfor %}
-        </ul>
-      </div>
+      <li class="cv-item">
+        <div class="cv-item-content">
+          <div class="cv-item-title">{{ skill.name }}</div>
+          {% if skill.keywords.size > 0 %}
+          <div class="cv-item-detail">{{ skill.keywords | join: ", " }}</div>
+          {% endif %}
+        </div>
+      </li>
       {% endfor %}
     </div>
   </div>
