@@ -1,6 +1,7 @@
 {
   "basics": {
     "name": "Mohammad Ali Momen",
+    "label":"",
     "email": "mamomen1996@gmail.com",
     "phone": "(+98) 21",
     "website": "https://mamomen1996.github.io",
@@ -85,11 +86,37 @@
       ]
     }
   ],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Artificial General Intelligence",
+      "keywords":[]
+    },
+    {
+      "name": "Machine Consciousness",
+      "keywords":[]
+    },
+    {
+      "name": "Computational Neuroscience",
+      "keywords":[]
+    },
+    {
+      "name": "Cognitive Neuroscience",
+      "keywords":[]
+    },
+    {
+      "name": "Reinforcement Learning",
+      "keywords":[]
+    },
+    {
+      "name": "Multi Modal Learning",
+      "keywords":[]
+    },
+    {
+      "name": "Artificial Neural Networks",
+      "keywords":[]
+    },
+  ],
   "research": [],
-  "skills": [],
-  "languages": [],
-  "references": [],
   "publications": [
     "articles":[
       {
@@ -124,6 +151,55 @@
     "papers":[],
     "preprints":[],
     "grants":[]
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": [
+        "Java",
+        "Python",
+        "C++",
+        "SQL"
+      ]
+    },
+    {
+      "name": "Machine Learning & AI",
+      "keywords": [
+        "TensorFlow",
+        "PyTorch",
+        "Scikit-learn",
+        "Keras",
+        "OpenCV",
+        "PIL"
+      ]
+    },
+    {
+      "name": "Data Analysis & Visualization",
+      "keywords" [
+        "NumPy",
+        "Pandas",
+        "Matplotlib",
+        "Seaborn",
+        "Plotly",
+        "SKLearn",
+        "SciPy"
+      ]
+    },
+    {
+      "name": "Tools",
+      "keywords": [
+        "Git",
+        "GitHub",
+        "Linux"
+      ]
+    },
+    {
+      "name": "Hardware",
+      "keywords": [
+        "Sensor fusion",
+        "Microcontroller programming (Raspberry Pi)"
+      ]
+    }
   ],
   "presentations": [
     {
@@ -179,5 +255,9 @@
       "url": "",
       "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
     }
-  ]
+  ],
+  "certifications": [],
+  "awards": [],
+  "languages": [],
+  "references": [],
 }
