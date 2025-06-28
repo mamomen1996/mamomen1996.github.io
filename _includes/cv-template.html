@@ -66,6 +66,9 @@
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">{{ education.institution }}</div>
+          {% if education.thesis %}
+          <div class="cv-item-detail">Thesis: {{ education.thesis }}</div>
+          {% endif %}
           {% if education.gpa %}
           <div class="cv-item-detail">GPA: {{ education.gpa }}</div>
           {% endif %}
