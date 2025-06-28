@@ -4,7 +4,7 @@
     "email": "mamomen1996@gmail.com",
     "phone": "(+98) 21",
     "website": "https://mamomen1996.github.io",
-    "summary": "Researcher & Inventor",
+    "summary": "M.Sc. Student, Researcher and Inventor with over 4 years of combined experience in advanced Artificial Intelligence and Software Development. I have experience in Robotics, IOT, Machine Learning, Deep Learning, Data Analysis, Web Development and System Administration. My current research focuses on Artificial General Intelligence, Machine Consciousness, Computational Neuroscience, Cognitive Neuroscience, Reinforcement Learning, Multi Modal Learning and Artificial Neural Networks. Proficient in Java, Python, C++, Git, Linux, PostgreSQL, and various machine learning and deep learning frameworks.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -35,6 +35,26 @@
       }
     ]
   },
+  "education": [
+    {
+      "institution": "Sharif University of Technology",
+      "area": "M.Sc. in Computer Engineering (Artificial Intelligence and Robotics)",
+      "startDate": "2025",
+      "endDate": "Present",
+      "thesis": null,
+      "gpa": null,
+      "courses": []
+    },
+    {
+      "institution": "Azerbaijan Shahid Madani University",
+      "area": "B.Sc. in Physics (Atomic and Molecular)",
+      "startDate": "2014",
+      "endDate": "2018",
+      "thesis": null,
+      "gpa": 3.35/4.00,
+      "courses": []
+    }
+  ],
   "work": [
     {
       "company": "Tamin (ICT & Management Consultancy)",
@@ -51,24 +71,6 @@
       "endDate": "Dec 2020",
       "summary": "",
       "highlights": []
-    }
-  ],
-  "education": [
-    {
-      "institution": "Sharif University of Technology",
-      "area": "M.Sc. in Computer Engineering (Artificial Intelligence and Robotics)",
-      "startDate": "2025",
-      "endDate": "Present",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "Azerbaijan Shahid Madani University",
-      "area": "B.Sc. in Physics (Atomic and Molecular)",
-      "startDate": "2014",
-      "endDate": "2018",
-      "gpa": 3.35,
-      "courses": []
     }
   ],
   "skills": [],
