@@ -62,7 +62,15 @@
       "startDate": "Dec 2020",
       "endDate": "May 2024",
       "summary": "",
-      "highlights": []
+      "highlights": [
+        "Significant participation in the development of a system for receiving and processing employers' premium lists completely online (Service 29) in the National Project 30-70 of the Social Security Organization as the main developer of the system.",
+        "This system currently receives, processes, and collects the premium lists of 20 million insured persons through 1.5 million workshops on a monthly basis, and deposits the amount of 7 hemats into the Social Security Organization's account on a monthly basis.",
+        "Develop and maintain full-stack applications for user-management, contributing to the successful implementation of 15+ OAuth features.",
+        "Designed and implementation secure authentication and authorization mechanisms, resulting in a 20% reduction in unauthorized access attempts.",
+        "Design, Development and Implementation the \"Online insurance premium list receipt and payment system\" which is one of the most important online services of \"National Social Security Organization\" of I.R.Iran This service process almost 1.5 million insurance lists containing over 20 million people information per every month. The project had been on hold for 7 years when I joined and I delivered it's first version in just 4 months.",
+        "Received 2 certificates of appreciation from the company's CEO for outstanding contribution and exemplary employee in national projects of the Social Security Organization.",
+        "I have worked in agile environments with teammates of 5 to 15 people."
+      ]
     },
     {
       "company": "Maktab Sharif Bootcamp",
@@ -70,7 +78,11 @@
       "startDate": "Jul 2020",
       "endDate": "Dec 2020",
       "summary": "",
-      "highlights": []
+      "highlights": [
+        "Learned the Spring Boot framework in 6 months.",
+        "Carrying out more than 20 projects based on Java core, Spring MVC, Spring Boot during the bootcamp.",
+        "Assisted in the development and maintenance of Java applications using Spring framework, contributing to the successful completion of 20+ development tasks within assigned deadlines.",
+      ]
     }
   ],
   "skills": [],
