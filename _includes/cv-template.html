@@ -121,8 +121,10 @@
     <ul class="cv-list">
       {% for interest in cv.interests %}
       <li class="cv-item">
-        <div class="cv-item-content">
+        <div class="cv-item-header">
           <div class="cv-item-title">{{ interest.name }}</div>
+        </div>
+        <div class="cv-item-content">
           {% if interest.keywords.size > 0 %}
           <div class="cv-item-detail">{{ interest.keywords | join: ", " }}</div>
           {% endif %}
@@ -266,18 +268,20 @@
   <!-- Technical Skills -->
   <div class="cv-section">
     <h2>Technical Skills</h2>
-    <div class="cv-list">
+    <ul class="cv-list">
       {% for skill in cv.skills %}
       <li class="cv-item">
         <div class="cv-item-header">
           <div class="cv-item-title">{{ skill.name }}</div>
+        </div>
+        <div class="cv-item-content">
           {% if skill.keywords.size > 0 %}
           <div class="cv-item-detail">{{ skill.keywords | join: ", " }}</div>
           {% endif %}
         </div>
       </li>
       {% endfor %}
-    </div>
+    </ul>
   </div>
   {% endif %}
   
