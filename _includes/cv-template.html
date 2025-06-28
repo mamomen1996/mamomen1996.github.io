@@ -259,8 +259,27 @@
       </li>
       {% endfor %}
     </ul>
+    {% endif %}
+
+    {% if cv.publications.grants.size > 0 %}
+    <h4>Grants</h4>
+    <ul class="cv-list">
+      {% for grant in cv.publications.grants %}
+      <li class="cv-item">
+        <div class="cv-item-header">
+          <div class="cv-item-title">{{ grant.title }}</div>
+          <div class="cv-item-date">{{ grant.date | slice: 0, 4 }}</div>
+        </div>
+        <div class="cv-item-content">
+          {% if grant.summary %}
+          <div class="cv-item-detail">{{ grant.summary }}</div>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
   </div>
-  {% endif %}
   
   {% if cv.presentations.size > 0 %}
   <!-- Presentations/Talks -->
