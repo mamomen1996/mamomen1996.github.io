@@ -113,6 +113,55 @@
     </ul>
   </div>
   {% endif %}
+
+  {% if cv.interests.size > 0 %}
+  <!-- Research Interests -->
+  <div class="cv-section">
+    <h2>Research Interests</h2>
+    <ul class="cv-list">
+      {% for interest in cv.interests %}
+      <li class="cv-item">
+        <div class="cv-item-content">
+          <div class="cv-item-title">{{ interest.name }}</div>
+          {% if interest.keywords.size > 0 %}
+          <div class="cv-item-detail">{{ interest.keywords | join: ", " }}</div>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if cv.work.size > 0 %}
+  <!-- Research Experience -->
+  <div class="cv-section">
+    <h2>Research Experience</h2>
+    <ul class="cv-list">
+      {% for research in cv.research %}
+      <li class="cv-item">
+        <div class="cv-item-header">
+          <div class="cv-item-title">{{ research.position }}</div>
+          <div class="cv-item-date">{{ research.startDate }}{% if research.endDate %} - {{ research.endDate }}{% endif %}</div>
+        </div>
+        <div class="cv-item-content">
+          <div class="cv-item-subtitle">{{ research.lab }}</div>
+          {% if research.summary %}
+          <div class="cv-item-detail">{{ research.summary }}</div>
+          {% endif %}
+          {% if research.highlights.size > 0 %}
+          <ul class="cv-highlights">
+            {% for highlight in research.highlights %}
+            <li>{{ highlight }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
   
   {% if cv.skills.size > 0 %}
   <!-- Skills -->
@@ -133,25 +182,77 @@
   </div>
   {% endif %}
   
-  {% if cv.publications.size > 0 %}
   <!-- Publications -->
   <div class="cv-section">
     <h2>Publications</h2>
+
+    {% if cv.publications.articles.size > 0 %}
+    <h4>Journal Articles</h4>
     <ul class="cv-list">
-      {% for publication in cv.publications %}
+      {% for article in cv.publications.articles %}
       <li class="cv-item">
         <div class="cv-item-header">
-          <div class="cv-item-title">{{ publication.name }}</div>
-          <div class="cv-item-date">{{ publication.releaseDate | slice: 0, 4 }}</div>
+          <div class="cv-item-title">{{ article.name }}</div>
+          <div class="cv-item-date">{{ article.releaseDate | slice: 0, 4 }}</div>
         </div>
         <div class="cv-item-content">
-          <div class="cv-item-subtitle">{{ publication.publisher }}</div>
-          {% if publication.summary %}
-          <div class="cv-item-detail">{{ publication.summary }}</div>
+          <div class="cv-item-subtitle">{{ article.publisher }}</div>
+          {% if article.summary %}
+          <div class="cv-item-detail">{{ article.summary }}</div>
           {% endif %}
-          {% if publication.website %}
+          {% if article.website %}
           <div class="cv-item-detail">
-            <a href="{{ publication.website }}" target="_blank">View Publication</a>
+            <a href="{{ article.website }}" target="_blank">View Article</a>
+          </div>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if cv.publications.papers.size > 0 %}
+    <h4>Conference Papers</h4>
+    <ul class="cv-list">
+      {% for paper in cv.publications.papers %}
+      <li class="cv-item">
+        <div class="cv-item-header">
+          <div class="cv-item-title">{{ paper.name }}</div>
+          <div class="cv-item-date">{{ paper.releaseDate | slice: 0, 4 }}</div>
+        </div>
+        <div class="cv-item-content">
+          <div class="cv-item-subtitle">{{ paper.publisher }}</div>
+          {% if paper.summary %}
+          <div class="cv-item-detail">{{ paper.summary }}</div>
+          {% endif %}
+          {% if paper.website %}
+          <div class="cv-item-detail">
+            <a href="{{ paper.website }}" target="_blank">View Paper</a>
+          </div>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if cv.publications.preprints.size > 0 %}
+    <h4>Preprints</h4>
+    <ul class="cv-list">
+      {% for preprint in cv.publications.preprints %}
+      <li class="cv-item">
+        <div class="cv-item-header">
+          <div class="cv-item-title">{{ preprint.name }}</div>
+          <div class="cv-item-date">{{ preprint.releaseDate | slice: 0, 4 }}</div>
+        </div>
+        <div class="cv-item-content">
+          <div class="cv-item-subtitle">{{ preprint.publisher }}</div>
+          {% if preprint.summary %}
+          <div class="cv-item-detail">{{ preprint.summary }}</div>
+          {% endif %}
+          {% if preprint.website %}
+          <div class="cv-item-detail">
+            <a href="{{ preprint.website }}" target="_blank">View Preprint</a>
           </div>
           {% endif %}
         </div>
@@ -251,25 +352,6 @@
         <div class="cv-item-content">
           <div class="cv-item-title">{{ language.language }}</div>
           <div class="cv-item-detail">{{ language.fluency }}</div>
-        </div>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-  {% endif %}
-  
-  {% if cv.interests.size > 0 %}
-  <!-- Interests -->
-  <div class="cv-section">
-    <h2>Interests</h2>
-    <ul class="cv-list">
-      {% for interest in cv.interests %}
-      <li class="cv-item">
-        <div class="cv-item-content">
-          <div class="cv-item-title">{{ interest.name }}</div>
-          {% if interest.keywords.size > 0 %}
-          <div class="cv-item-detail">{{ interest.keywords | join: ", " }}</div>
-          {% endif %}
         </div>
       </li>
       {% endfor %}
